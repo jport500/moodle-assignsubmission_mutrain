@@ -26,6 +26,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['eventassessableuploaded'] = 'A CE credit certificate has been uploaded.';
 $string['pluginname'] = 'CE Credit Submission';
 $string['enabled'] = 'CE Credit Submission';
 $string['default'] = 'Enabled by default';

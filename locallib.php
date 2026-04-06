@@ -323,7 +323,7 @@ class assign_submission_mutrain extends assign_submission_plugin {
             if (!empty($submission->userid) && ($submission->userid != $USER->id)) {
                 $params['relateduserid'] = $submission->userid;
             }
-            $event = \core\event\assessable_uploaded::create($params);
+            $event = \assignsubmission_mutrain\event\assessable_uploaded::create($params);
             $event->set_legacy_files($files);
             $event->trigger();
         }
